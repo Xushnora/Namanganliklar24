@@ -1,24 +1,224 @@
+@font-face {
+    font-family: 'Rubik';
+    src: url(@font-face {
+    font-family: 'Rubik';
+    src: url('..//fonts/Rubik-Medium.woff2') format('woff2'),
+        url('..//fonts/Rubik-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('..//fonts/Rubik-Bold.woff2') format('woff2'),
+        url('..//fonts/Rubik-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src: url('..//fonts/Rubik-Regular.woff2') format('woff2'),
+        url('..//fonts/Rubik-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Rubik', 'Arial', sans-serif ;
+}
+
+
+.header-section{
+    display: flex;
+    padding-right: 2%;
+    margin: 2px;
+}
+
+
 .covid-news {
     background-color:honeydew;
+    margin: 2px;
+    display: flex;
+    align-items: center;
 }
-.covid-information {
-    color: brown;
+
+.covid-news-list{
+    display: flex;
+    list-style-type: none;
+    margin: 2px;
+    /* position: absolute; */
+    /* right: 0; */
+    /* margin-top: -5% */
+    
 }
-.maska-picture {
-    background-color: chartreuse;
+
+                                                                                                                                                        
+
+.covid-news-item{
+    padding-right: 2%;
+    border: 2px;
+    border-right: 200px;
 }
+
+.header-list{
+    display: flex;
+    width: 200px;
+}
+
+.header-list-valuta{
+    list-style-type: none;
+    padding-right: 4%;
+    color: #515151;
+}
+
+.dollar{
+    color: #295091;
+}
+
+.header-button{
+    /* height: 30px; */
+border: none;
+    padding: 0%;
+}
+
+
+.header-section-item{
+    margin-right: 20px;
+}
+
+.class-telegram{
+     padding-right: 2%; 
+}
+
+
+.main-section{
+    margin: 2px;
+}
+.covid-news{
+    background-color: #F6F6F9;
+}
+
 .covid-19 {
-    color: deeppink;
+    color: #000000;
+    padding-right: 50px;
 }
+
+
+
+.covid-information {
+    color: #DB0000;
+    padding-right: 50px;
+}
+
 .covid-status{
-    color: gold;
+    color: #05B135;
+    padding-right: 50px;
 }
-.covid-umerli-photo{
-    background-color: lightseagreen;
-}
+
 .covid-umerli{
-    color: olivedrab;
+    color: #000000;
+    padding-right: 50px;
 }
-.covid-smaylik{
-    background-color: red;
+
+.telegram-logo{
+    background-color: blue;
+}
+
+.big-nav{
+    display: flex;
+    list-style: none;
+}
+
+.nav-list{
+    /* font-family: 'Rubik' ; */
+    /* bu hamma harflarni bosh harflarga aylantirib qo'yadi text-transform: uppercase; */
+    font-weight: 400;
+    color: #515151;
+    text-decoration: none;
+    list-style: none;
+    width: 300px;
+    margin: 5px;
+}
+
+.list-big-nav{
+    color: #515151;
+}
+
+.section-list-link{
+    text-decoration: none;
+    list-style-type: none;
+    font-style: italic;
+    color: teal;
+}
+.section-list-item{
+    list-style: none;
+    padding-right: 50px;
+    width: 380px;
+}
+.section-button{
+background-color:gold;
+color: blue;
+
+}
+.weather-list{
+    list-style: none;
+}
+.weather-link{
+    text-decoration: none;
+    list-style-type: none;
+    font-style: italic;
+    color: olive
+}
+.weather-button{
+    background-color: orange;
+}
+.famaus-list{
+    list-style: none;
+    color:brown 
+}
+.famaus-link{
+    text-decoration: none;
+    list-style-type: none;
+    color:darkred;
+}
+.footer-list{
+    list-style: none;
+       
+}
+
+.footer-link{
+    text-decoration: none;
+    list-style-type: none;
+    color:darkorchid
+}
+.namanganliklar{
+    text-decoration: none;
+    color:red
+}
+.footer-link-item{
+    text-decoration: none;
+    color: red;
+}
+.information-p{
+    color: darkorange;
+}
+.telegram-link{
+    text-decoration: none;
+    color:blue
+}
+.section-list{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.section-news{
+    display: flex;
+    flex-wrap: wrap;
+}
+.list-time{
+    color: #6B6D97;
 }
